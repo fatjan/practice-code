@@ -1,5 +1,9 @@
 def solution(S):
     # Implement your solution here
+    cl = '}])'
+    if S[0] in cl:
+        return 0
+    
     stack = []
     op = '{[('
 
@@ -22,3 +26,6 @@ def solution(S):
 
 solution('{[()()]}')
 # 1
+
+solution('([)()]')
+# 0

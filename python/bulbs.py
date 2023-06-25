@@ -4,13 +4,13 @@ def bulbSwitch(n):
     On the third round, you toggle every third bulb (turning on if it's off or turning off if it's on). 
     For the ith round, you toggle every i bulb. For the nth round, you only toggle the last bulb.
     Return the number of bulbs that are on after n rounds.
-    >>> bulbSwitch(3)
-    1
     >>> bulbSwitch(0)
     0
     >>> bulbSwitch(1)
     1
     >>> bulbSwitch(2)
+    1
+    >>> bulbSwitch(3)
     1
     >>> bulbSwitch(4)
     2
@@ -56,6 +56,48 @@ def bulbSwitch(n):
     4
     >>> bulbSwitch(25)
     5
+    >>> bulbSwitch(30)
+    5
+    >>> bulbSwitch(35)
+    5
+    >>> bulbSwitch(36)
+    6      
+    >>> bulbSwitch(40)
+    6
+    >>> bulbSwitch(49)
+    7
+    >>> bulbSwitch(50)
+    7
+    >>> bulbSwitch(60)
+    7
+    >>> bulbSwitch(70)
+    8
+    >>> bulbSwitch(80)
+    8
+    >>> bulbSwitch(81)
+    9
+    >>> bulbSwitch(90)
+    9
+    >>> bulbSwitch(99)
+    9
+    >>> bulbSwitch(100)
+    10
+    >>> bulbSwitch(120)
+    10
+    >>> bulbSwitch(121)
+    11
+    >>> bulbSwitch(1000)
+    31
+    >>> bulbSwitch(10000)
+    100
+    >>> bulbSwitch(100000)
+    316
+    >>> bulbSwitch(1000000)
+    1000
+    >>> bulbSwitch(10000000)
+    3162
+    >>> bulbSwitch(100000000)
+    10000
     """
     if n == 0:
         return 0

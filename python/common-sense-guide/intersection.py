@@ -20,3 +20,6 @@ arr2 = [3, 4, 5, 6, 7]
 # Find the intersection of two arrays
 intersection = find_intersection(arr1, arr2)
 print("Intersection of two arrays:", intersection)
+
+# This way, we can find the intersection of two arrays in Python, not using O(N*M) time complexity. But then using O(N) time complexity,
+# however, the space complexity is O(N) as well.

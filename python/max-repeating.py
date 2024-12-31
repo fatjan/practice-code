@@ -15,5 +15,5 @@ def max_repeating(sequence, word):
     
     return res
 
-print(max_repeating('ababab', 'ab'))
+# print(max_repeating('ababab', 'ab'))
 print(max_repeating('ababc', 'ba'))
